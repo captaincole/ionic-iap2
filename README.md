@@ -1,6 +1,6 @@
 ## In App Purchase 2 Example with Ionic
 
-### This code references this blog post [IAP2 - Medium](https://medium.com/p/810c8089010)
+### This code references this blog post [IAP2 - Medium](https://medium.com/@andrew.thielcole/in-app-purchases-with-ionic-3-af13b21f49f2)
 
 
 This is an example Ionic application with the full code for configuring and buying a product.
