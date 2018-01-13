@@ -10,7 +10,7 @@ export class AboutPage {
 
   public product: any = {
     name: 'My Product',
-    apppleProductId: '1234',
+    appleProductId: '1234',
     googleProductId: '12345'
   };
 
