@@ -3,10 +3,10 @@ import { NavController, Platform } from 'ionic-angular';
 import { InAppPurchase2, IAPProduct } from '@ionic-native/in-app-purchase-2';
 
 @Component({
-  selector: 'page-contact',
-  templateUrl: 'contact.html'
+  selector: 'restore-purchase',
+  templateUrl: 'restore-purchase.page.html'
 })
-export class ContactPage {
+export class RestorePurchase {
   
   public product: any = {
     name: 'My Product',
