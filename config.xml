@@ -76,12 +76,13 @@
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
         <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
     </platform>
-    <plugin name="ionic-plugin-keyboard" spec="~2.2.1" />
-    <plugin name="cordova-plugin-whitelist" spec="1.3.1" />
-    <plugin name="cordova-plugin-device" spec="1.1.4" />
-    <plugin name="cordova-plugin-splashscreen" spec="~4.0.1" />
-    <plugin name="cordova-plugin-ionic-webview" spec="^1.1.11" />
+    <engine name="ios" spec="4.5.4" />
     <plugin name="cc.fovea.cordova.purchase" spec="^7.1.0">
-        <variable name="BILLING_KEY" value="ANDROID_BILLING_KEY" />
+        <variable name="BILLING_KEY" value="&lt;ANDROID_BILLING_KEY&gt;" />
     </plugin>
+    <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.1" />
+    <plugin name="cordova-plugin-device" spec="^1.1.4" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+    <plugin name="cordova-plugin-ionic-webview" spec="^1.1.16" />
 </widget>
