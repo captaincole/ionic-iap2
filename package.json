@@ -52,7 +52,7 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cc.fovea.cordova.purchase": {
-        "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkAy6Z+7t3YoEDSCxitnh7y/3HMiJ3hTyhG+C6Rnc0plwdJgwnPppw7g2NXjtORi0VIfEbDfJqP2w+zOmggQhO45H5CNxFXi/OfGSBn0jbyBripxbvZ6ZF+K6QArA2ZDND6PYz8rFMeOmHtEpYd/47/YrOPDp0zIu5JkhSQjgEthKbumVlnK1bNQWGkY52Vt6MQJgzlTbm6iqRsAlAbwjvEAf5tF5/hn4CNXBQDpkTUI5FxEwp8IDW0h7Shl6D3Q5LX08dxpC8TUpEl9MTvAqzSrQjZndLrqvWFYwXGZDjI/VG3xAy5fcckctIhYkyce5C5bd0sWUidvcYV+/pRaxQIDAQAB"
+        "BILLING_KEY": "BILLING KEY"
       }
     },
     "platforms": [
