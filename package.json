@@ -26,6 +26,7 @@
     "@ionic-native/status-bar": "4.4.0",
     "@ionic/storage": "2.1.3",
     "cc.fovea.cordova.purchase": "^7.1.0",
+    "cordova-android": "6.3.0",
     "cordova-ios": "4.5.4",
     "cordova-plugin-device": "^1.1.4",
     "cordova-plugin-ionic-webview": "^1.1.16",
@@ -45,14 +46,14 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
-      "cc.fovea.cordova.purchase": {
-        "BILLING_KEY": "<ANDROID_BILLING_KEY>"
-      },
       "ionic-plugin-keyboard": {},
       "cordova-plugin-whitelist": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
-      "cordova-plugin-ionic-webview": {}
+      "cordova-plugin-ionic-webview": {},
+      "cc.fovea.cordova.purchase": {
+        "BILLING_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkAy6Z+7t3YoEDSCxitnh7y/3HMiJ3hTyhG+C6Rnc0plwdJgwnPppw7g2NXjtORi0VIfEbDfJqP2w+zOmggQhO45H5CNxFXi/OfGSBn0jbyBripxbvZ6ZF+K6QArA2ZDND6PYz8rFMeOmHtEpYd/47/YrOPDp0zIu5JkhSQjgEthKbumVlnK1bNQWGkY52Vt6MQJgzlTbm6iqRsAlAbwjvEAf5tF5/hn4CNXBQDpkTUI5FxEwp8IDW0h7Shl6D3Q5LX08dxpC8TUpEl9MTvAqzSrQjZndLrqvWFYwXGZDjI/VG3xAy5fcckctIhYkyce5C5bd0sWUidvcYV+/pRaxQIDAQAB"
+      }
     },
     "platforms": [
       "ios"

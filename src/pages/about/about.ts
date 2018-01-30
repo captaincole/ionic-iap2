@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NavController, Platform } from 'ionic-angular';
 import { InAppPurchase2, IAPProduct } from '@ionic-native/in-app-purchase-2';
 
@@ -6,22 +6,25 @@ import { InAppPurchase2, IAPProduct } from '@ionic-native/in-app-purchase-2';
   selector: 'page-about',
   templateUrl: 'about.html'
 })
-export class AboutPage {
+export class AboutPage implements OnInit {
 
   public product: any = {
     name: 'My Product',
     appleProductId: '1234',
-    googleProductId: '12345'
+    googleProductId: 'com.38plank.spartan_one'
   };
 
   constructor(public navCtrl: NavController,
               private store: InAppPurchase2,
               public platform: Platform) {
-
+        
   }
 
-  async configurePurchasing() {
-    // Only works with an emulator or real device
+  ngOnInit() {
+    this.configurePurchasing();
+  }
+
+  configurePurchasing() {
     if (!this.platform.is('cordova')) { return; }
     let productId;
     try {
@@ -59,7 +62,6 @@ export class AboutPage {
     } catch (err) {
       console.log('Error On Store Issues' + JSON.stringify(err));
     }
-
   }
 
   registerHandlers(productId) {
@@ -91,7 +93,6 @@ export class AboutPage {
     /* Only configuring purchase when you want to buy, because when you configure a purchase
     It prompts the user to input their apple id info on config which is annoying */
     if (!this.platform.is('cordova')) { return };
-    this.configurePurchasing();
 
     let productId;
 
