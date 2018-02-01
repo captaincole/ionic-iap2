@@ -6,3 +6,5 @@
 This is an example Ionic application with the full code for configuring and buying a product.
   This will only work on a real device (not an emulator), and it will also fail until you edit a few pieces with
   your google and apple product id's, as well as your google play store code in config.xml</p>
+
+If your interested in checking out our fully featured Ionic App, check out www.38plank.com.
