@@ -1,6 +1,8 @@
 ## In App Purchase 2 Starter Kit
 ### Starter Kit for one time purchases in your Ionic App
 
+### This project is now unsupported - If you would like to take over from here, please dm me.
+
 The cordova ecosystem for in-app purchases is confusing to wade through and difficult to implement, but don't fear, because I have you covered. In this plugin, I have implemented @ionic-native/inapppurchase2 and shown how to conifigure, track, and purchase something in app. Features include
 
 * Ionic 3.X Compatible 
